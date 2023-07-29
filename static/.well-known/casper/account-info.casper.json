@@ -1,0 +1,61 @@
+{
+  "owner": {
+    "name": "Casper Black Staking",
+    "description": "We are a group of computer engineers. We have been contributing to open source projects, and running Linux servers for years.",
+    "type": [
+      "validator"
+    ],
+    "identity": {
+      "ownership_disclosure_url": "",
+      "casper_association_kyc_url": "",
+      "casper_association_kyc_onchain": ""
+    },
+    "resources": {
+      "code_of_conduct_url": "",
+      "terms_of_service_url": "",
+      "privacy_policy_url": ""
+    },
+    "affiliated_accounts": [
+      {"public_key": "017e47f89ad6a5fe716a118b5ab88970e5f530cfc1a3c38565341942d1a882fb06"}
+     ],
+    "website": "",
+    "branding": {
+      "logo": {
+        "png_256": "https://cspr.black/CasperBlackStaking_logo1.png",
+        "svg": ""
+      }
+    },
+    "location": {
+      "name": "Istanbul",
+      "country": "TR",
+      "latitude": 0,
+      "longitude": 0
+    },
+    "social": {
+      "keybase": "",
+      "telegram": "@CasperBlackStaking",
+      "twitter": "",
+      "github": "",
+      "youtube": "",
+      "facebook": "",
+      "medium": "",
+      "reddit": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "public_key": "0103dd8b2b18ef0b9fd5b7c8e340b104ee4d966f2a167eb1a938963f8c8f699a45",
+      "description": "This validator is running on a bare metal machine with top hardware specifications",
+      "location": {
+        "name": "Istanbul",
+        "country": "TR",
+        "latitude": 41.0214,
+        "longitude": 28.9948
+      },
+      "functionality": [
+        "validator"
+      ]
+    }
+  ]
+}

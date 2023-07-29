@@ -1,0 +1,65 @@
+# main menu
+[[main]]
+name = "Ana Sayfa"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Blog"
+url = "blog"
+weight = 2
+
+[[main]]
+name = "Ücretlendirme"
+url = "pricing"
+weight = 3
+
+[[main]]
+name = "İletişim"
+url = "contact"
+weight = 4
+
+[[main]]
+name = "SSS"
+url = "faq"
+weight = 5
+
+# footer menu left
+[[footer_left]]
+name = "Hakkımızda"
+url = "#"
+
+[[footer_left]]
+name = "Hızlı Başlangıç"
+url = "#"
+
+[[footer_left]]
+name = "Ücretlendirme"
+url = "pricing"
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Ücretlendirme"
+url = "pricing"
+
+[[footer_middle]]
+name = "Platform"
+url = "#"
+
+[[footer_middle]]
+name = "Özellikler"
+url = "#"
+
+# footer menu right
+[[footer_right]]
+name = "Gizlilik Politikası"
+url = "privacy-policy"
+
+[[footer_right]]
+name = "Şart ve Koşullar"
+url = "terms-conditions"
+
+[[footer_right]]
+name = "SSS"
+url = "faq"

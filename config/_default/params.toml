@@ -1,0 +1,36 @@
+#################### default parameters ################################
+logo = "images/logo.png"
+logo_width = "200px"
+# OpenGraph / Twitter Card metadata
+description = "CasperBlackStaking"
+author = "Themefisher"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+# Type of pages to be rendered with a blog view
+blogCategoryType = "category"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = true
+label = "Get Started"
+link = "https://cspr.live/delegate-stake?validatorPublicKey=0103dd8b2b18ef0b9fd5b7c8e340b104ee4d966f2a167eb1a938963f8c8f699a45"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+  
+############################# social site ########################
+[[social]]
+title = "telegram"
+icon = "fab fa-telegram" # themify icon : https://themify.me/themify-icons
+link = "https://t.me/CasperBlackStaking"
