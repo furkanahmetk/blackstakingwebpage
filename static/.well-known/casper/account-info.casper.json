@@ -1,7 +1,7 @@
 {
   "owner": {
     "name": "Casper Black Staking",
-    "description": "We are a group of computer engineers. We have been contributing to open source projects, and running Linux servers for years.",
+    "description": "Are you looking for a reliable validator for staking your CSPR tokens? Look no further! Our team of experienced computer engineers has been contributing to open source projects and running servers for years. Our validator's specs meet the network's requirements and is built on a dedicated server.",
     "type": [
       "validator"
     ],
