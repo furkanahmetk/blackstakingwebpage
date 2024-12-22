@@ -49,7 +49,7 @@
       "description": "This validator is running on a bare metal machine with top hardware specifications.",
       "location": {
         "name": "London",
-        "country": "GBR",
+        "country": "GB",
         "latitude": 51.509865,
         "longitude": -0.118092
       },
@@ -62,7 +62,7 @@
       "description": "This validator is running on a bare metal machine with top hardware specifications.",
       "location": {
         "name": "Beauharnois, Quebec",
-        "country": "CAN",
+        "country": "CA",
         "latitude": 45.322,
         "longitude": -73.8741
       },
