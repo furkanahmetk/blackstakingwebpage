@@ -46,12 +46,25 @@
   "nodes": [
     {
       "public_key": "0103dd8b2b18ef0b9fd5b7c8e340b104ee4d966f2a167eb1a938963f8c8f699a45",
-      "description": "This validator is running on a bare metal machine with top hardware specifications",
+      "description": "This validator is running on a bare metal machine with top hardware specifications.",
       "location": {
-        "name": "Istanbul",
-        "country": "TR",
-        "latitude": 41.0214,
-        "longitude": 28.9948
+        "name": "London",
+        "country": "GBR",
+        "latitude": 51.509865,
+        "longitude": -0.118092
+      },
+      "functionality": [
+        "validator"
+      ]
+    },
+    {
+      "public_key": "01f1e8072881f1227ef702f3ba9d816c855cb6f8a00333253a0f7bb2edb111bb20",
+      "description": "This validator is running on a bare metal machine with top hardware specifications.",
+      "location": {
+        "name": "Beauharnois, Quebec",
+        "country": "CAN",
+        "latitude": 45.322,
+        "longitude": -73.8741
       },
       "functionality": [
         "validator"
