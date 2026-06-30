@@ -57,6 +57,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+          cp -r static/.well-known public/
+          touch public/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
