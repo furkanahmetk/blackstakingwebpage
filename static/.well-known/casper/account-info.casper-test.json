@@ -1,0 +1,61 @@
+{
+  "owner": {
+    "name": "Casper Black Staking",
+    "description": "Testnet node of Black Staking",
+    "type": [
+      "validator"
+    ],
+    "identity": {
+      "ownership_disclosure_url": "",
+      "casper_association_kyc_url": "",
+      "casper_association_kyc_onchain": ""
+    },
+    "resources": {
+      "code_of_conduct_url": "",
+      "terms_of_service_url": "",
+      "privacy_policy_url": ""
+    },
+    "affiliated_accounts": [
+      {"public_key": ""}
+     ],
+    "website": "",
+    "branding": {
+      "logo": {
+        "png_256": "https://cspr.black/CasperBlackStaking_logo1.png",
+        "svg": ""
+      }
+    },
+    "location": {
+      "name": "Istanbul",
+      "country": "TR",
+      "latitude": 0,
+      "longitude": 0
+    },
+    "social": {
+      "keybase": "",
+      "telegram": "@CasperBlackStaking",
+      "twitter": "",
+      "github": "",
+      "youtube": "",
+      "facebook": "",
+      "medium": "",
+      "reddit": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "public_key": "01c26fa809f1a4a5949d899137c76fd2a261e35c5427036f0fdd6dabc68068e5a1",
+      "description": "This validator is running on a bare metal machine with top hardware specifications. Casper Testnet Node Link. ",
+      "location": {
+        "name": "Beauharnois, Quebec",
+        "country": "CA",
+        "latitude": 45.322,
+        "longitude": -73.8741
+      },
+      "functionality": [
+        "validator"
+      ]
+    }
+  ]
+}
