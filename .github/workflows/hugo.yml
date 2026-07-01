@@ -57,8 +57,18 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-          cp -r static/.well-known public/
+          # Klasörü zorla oluşturuyoruz
+          mkdir -p public/.well-known/casper
+          
+          # Dosyayı adresiyle noktası virgülüne belirterek kopyalıyoruz
+          cp static/.well-known/casper/account-info.casper.json public/.well-known/casper/
+          
+          # Jekyll kalkanını ekliyoruz
           touch public/.nojekyll
+          
+          # Çalışıp çalışmadığını kanıtlamak için loglara dosya listesini bastırıyoruz
+          ls -la public/.well-known/casper/
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
